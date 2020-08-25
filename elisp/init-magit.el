@@ -39,7 +39,7 @@
 (use-package magit
   :if (executable-find "git")
   :bind
-  (("C-x g" . magit-status)
+  (("C-c m" . magit-status)
    (:map magit-status-mode-map
          ("M-RET" . magit-diff-visit-file-other-window)))
   :config
