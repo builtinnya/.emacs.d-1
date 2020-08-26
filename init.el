@@ -210,7 +210,7 @@ If you experience freezing, decrease this.  If you experience stuttering, increa
 
 (require 'init-eww)
 
-(require 'init-mu4e)
+;(require 'init-mu4e)
 
 (require 'init-tramp)
 
